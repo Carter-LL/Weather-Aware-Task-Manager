@@ -17,3 +17,44 @@ Task Management: Users can add, edit, delete, and categorize tasks as "To Do," "
 Weather Integration: Fetch and display current weather conditions based on the user's location, helping them plan tasks accordingly.
 Task Filtering: Users can filter tasks by status and view tasks alongside the current weather forecast.
 Responsive Design: A modern, user-friendly interface that works well on both desktop and mobile devices.
+
++---------------------+
+|      Frontend       |
+|  (ASP.NET Core MVC) |
+|                     |
+|  - User Interface   |
+|  - Task Management  |
+|  - Weather Display  |
++---------------------+
+          |
+          |
+          v
++---------------------+
+|      Backend        |
+|  (ASP.NET Core)     |
+|                     |
+|  - Controller Layer |
+|  - Business Logic   |
+|  - API Integration  |
++---------------------+
+          |
+          |
+          v
++---------------------+
+|      Data Layer     |
+|      (SQLite)       |
+|                     |
+|  - User Data        |
+|  - Task Data        |
++---------------------+
+          |
+          |
+          v
++---------------------+
+|   Weather API       |
+|  (e.g., OpenWeatherMap) |
+|                     |
+|  - Current Weather  |
+|  - Forecast Data    |
++---------------------+
+
